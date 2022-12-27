@@ -1,7 +1,7 @@
 # cache
 
-Example
-
+## Example
+```
 package main
 
 import (
@@ -17,3 +17,4 @@ func main() {
 	c.Delete("www")
 	fmt.Println(c)
 }
+```
