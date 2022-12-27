@@ -15,6 +15,7 @@ func main() {
 	c.Set("www", 3)
 	c.Set("eee", 'A')
 	c.Delete("www")
-	fmt.Println(c)
+	fmt.Println(c.Get("qqq"))
 }
+
 ```
